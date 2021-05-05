@@ -1,0 +1,60 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+p {
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+body, html {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+button {
+    background: none;
+    width: 25vh;
+    height: 25vh;
+    border: 0.25px solid black;
+    border-radius: 5px;
+    font-family: 'Cormorant Garamond';
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+div {
+    margin: 0 auto;
+}
+
+.center-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#change {
+    font-size: 100px;
+    position: relative;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-family: 'Cormorant Garamond';
+    mix-blend-mode: difference;
+    z-index: 10;
+    text-align: center;
+}
+
+button {
+    margin: 50px;
+}
